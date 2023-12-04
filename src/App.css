@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  padding: 30px 0 30px 0;
+  background: #343a40;
+  color: #fff;
+  text-align: center;
+}
+
+header h1 {
+  display: inline;
+  margin-left: 15px;
+  font-weight: 300;
+}
+
+.input-field {
+  background: green;
+  padding: 30px 0 30px 0;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.form {
+  
+  display: inline;
+  align-items: center;
+ 
+  justify-content: center
+}
+
+.input-field button, .input-field select {
+  background-color: purple;
+  color: white;
+}
+
+.input {
+  text-align: center;
+}
+
+.card {
+  margin: 15px;
+  width: fit-content;
+}
+
+img {
+  object-fit: cover;
+}

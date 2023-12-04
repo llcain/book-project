@@ -1,0 +1,27 @@
+Google - create react app in folder - make sure name of folder does not have capital letters - https://stackoverflow.com/questions/55082584/how-to-create-a-react-app-directly-in-the-current-folder
+YouTube video - Build a Reactjs app with the Google Books API Part 1-4 - Fetching data and setting state by Jason Rivera
+Google - How to create a React component - https://www.w3schools.com/react/react_components.asp - https://reactjs.org/docs/components-and-props.html
+Google - How to create an input field - https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit
+Google - How to button with options - https://react.school/ui/button
+Google - How to create card - Bootstrap -w3schools - a. Install Bootstrap in React app
+b. Do I install Bootstrap or a particular version?...decisions....decisions
+Google - How to display image in react - https://betterprogramming.pub/how-to-display-images-in-react-dfe22a66d5e7
+Google - styling react components using css, sass, tailwind, and Bootstrap - https://www.geeksforgeeks.org/how-to-use-bootstrap-with-react/ - https://blog.logrocket.com/using-bootstrap-with-react-tutorial-with-examples/#install-react-bootstrap-package-react-bootstrap-reactstrap
+Google - How to center form in react - css
+Google - align label and input horizontal - https://linuxhint.com/center-input-field-using-css/
+Books component is where you want to update the state
+a. Create a constructor
+b. What is a constructor and what does it do?
+Google - contructor, super() - https://dev.to/bytebodger/constructors-in-functional-components-with-hooks-280m
+Handle search - input field - create a method and attach to SeachArea
+Pass handleSearch method to SeachArea as a prop - https://reactjs.org/docs/faq-functions.html#:~:text=With%20React%2C%20typically%20you%20only,pass%20them%20to%20other%20components.
+Install 3rd party library - superagent by typing npm install --save superagent
+Google - what is superagent in node js? - SuperAgent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.
+Create a method to make request to api in Books component
+How to create a method that makes request to api?
+How to render out all of the books in the booklist component? How do we do that?
+How to pass methods to component react - https://reactjs.org/docs/faq-functions.html#:~:text=With%20React%2C%20typically%20you%20only,pass%20them%20to%20other%20components.
+Passing down functions as Props in React - https://reactjs.org/docs/faq-functions.html#:~:text=With%20React%2C%20typically%20you%20only,pass%20them%20to%20other%20components. - https://dev.to/vadims4/passing-down-functions-in-react-4618
+Google - how to pass methods to component react codepen - https://codepen.io/smashingmag/pen/WNwrMEY - https://codepen.io/joelmasters/post/react-pass-a-function-from-one-component-to-another - https://www.w3schools.com/REACT/showreact.asp?filename=demo2_react_test
+Google - react class components - https://www.w3schools.com/react/react_sass_styling.asp
+Google - Mongodb, server, express, Node.js - https://codepen.io/arvind00/post/build-a-rest-api-using-node-express-and-mongodb
