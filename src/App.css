@@ -51,16 +51,26 @@ header h1 {
 
 button {
   margin-right: 10px;
+  padding: 10px;
 }
 
 .input {
   text-align: center;
   margin-right: 10px;
+  padding: 10px;
+}
+
+select {
+  padding: 10px;
 }
 
 .card {
   margin: 15px;
   width: fit-content;
+}
+
+.card-description h2, .card-description h3 {
+  font-size: 16px;
 }
 
 img {
