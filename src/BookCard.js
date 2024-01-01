@@ -11,7 +11,7 @@ const BookCard = (props) => {
                         <h2>{props.title}</h2>
                         <h3>{props.author}</h3>
                         <p>{props.published}</p>
-                        <a href="/" class="btn btn-primary">Go somewhere</a>
+                        <a href="/" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>

@@ -26,18 +26,23 @@ class Books extends Component {
           // console.log(data);
           this.setState({ books: [...data.body.items]})
         })
+        
   }
 
   // Handle search method
   handleSearch = (e) => {
     console.log(e.target.value);
     this.setState({ searchField: e.target.value })
+  
   }
+
+  
+  
   
   render() { 
     return (
       <div className='search-area'>
-        <SearchArea searchBook={this.searchBook} handleSearch={this.handleSearch} />
+        <SearchArea searchBook={this.searchBook} handleSearch={this.handleSearch}  />
         <BookList books={this.state.books} />
       </div>
     );
