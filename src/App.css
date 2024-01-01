@@ -4,17 +4,29 @@
   margin: 0;
 }
 
+.App {
+  background: tan;
+  display: block;
+  margin: 0;
+}
+
 header {
   padding: 30px 0 30px 0;
   background: #343a40;
   color: #fff;
   text-align: center;
+  padding: 50px;
+  margin-bottom: -20px;
 }
 
 header h1 {
   display: inline;
   margin-left: 15px;
   font-weight: 300;
+}
+
+.search-area {
+  text-align: center;
 }
 
 .input-field {
@@ -37,8 +49,13 @@ header h1 {
   color: white;
 }
 
+button {
+  margin-right: 10px;
+}
+
 .input {
   text-align: center;
+  margin-right: 10px;
 }
 
 .card {
@@ -48,4 +65,10 @@ header h1 {
 
 img {
   object-fit: cover;
+}
+
+.list {
+  border: 3px solid red ;
+  width: 350px;
+  
 }

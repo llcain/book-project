@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import BookList from './BookList';
 import SearchArea from './searchArea';
 import request from 'superagent';
+import "./App.css";
 
 
 
@@ -35,7 +36,7 @@ class Books extends Component {
   
   render() { 
     return (
-      <div>
+      <div className='search-area'>
         <SearchArea searchBook={this.searchBook} handleSearch={this.handleSearch} />
         <BookList books={this.state.books} />
       </div>
